@@ -18,8 +18,10 @@ const MusicContainer = () => {
 
     return(
         <>
-        <h1>Top 20 Tunes App</h1>
+        <div className="app">
+        <h1 className="title-header">Top 20 Tunes App</h1>
         <MusicList songs={songs} />
+        </div>
 
         </>
     )
